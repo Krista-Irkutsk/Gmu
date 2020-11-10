@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by Alexander (Lanit) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://bus.gov.ru/types/3"
+           xmlns:t="http://bus.gov.ru/types/1" targetNamespace="http://bus.gov.ru/types/3"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:import namespace="http://bus.gov.ru/types/1" schemaLocation="Types.xsd"/>
+    <xs:complexType name="financialActivityPlan2020Type">
+        <xs:annotation>
+            <xs:documentation>План финансово-хозяйственной деятельности</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="t:institutionPositionType">
+                <xs:sequence>
+                    <xs:element name="financialYear" type="t:yearType" minOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation>Финансовый год</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="planFirstYear" type="t:yearType" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>Первый год планового периода</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="planLastYear" type="t:yearType"  minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>Второй год планового периода</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="generalData" type="GeneralData"  minOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation>Общие информация</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="planPaymentIndex" type="PlanPaymentIndex" minOccurs="1" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation>Раздел 1. Поступления и выплаты</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="planPaymentTRU" type="PlanPaymentTRU" minOccurs="1" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation>Раздел 2. Сведения по выплатам на закупку товаров, работ, услуг</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="document" type="t:documentType" minOccurs="0" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation>Документ</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GeneralData">
+        <xs:annotation>
+            <xs:documentation>Общие информация</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="date" type="xs:date" minOccurs="1"/>
+            <xs:element name="dateApprovel" type="xs:date" minOccurs="1"/>
+            <xs:element name="founderAuthority" type="RefNsiConsRegExtendedGlavaCodeStrongType" minOccurs="1"/>
+            <xs:element name="okei" type="t:refNsiOkeiType" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="RefNsiConsRegExtendedGlavaCodeStrongType">
+        <xs:annotation>
+            <xs:documentation>Орган, осуществляющий функции и полномочия учредителя</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="t:refNsiConsRegExtendedStrongType">
+                <xs:sequence>
+                    <xs:element name="glavaCode" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>Глава по бк</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:minLength value="3"/>
+                                <xs:maxLength value="3"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="PlanPaymentIndex">
+        <xs:annotation>
+            <xs:documentation>Раздел 1. Поступления и выплаты</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="name" minOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="650"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lineCode" minOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="4"/>
+                        <xs:maxLength value="4"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="kbk" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="3"/>
+                        <xs:maxLength value="20"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="analyticCode" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="3"/>
+                        <xs:maxLength value="3"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="manually" minOccurs="0" type="xs:boolean"/>
+            <xs:element name="sum" type="Sum" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Суммы на текущий и плановые периоды</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PlanPaymentTRU">
+        <xs:annotation>
+            <xs:documentation>Раздел 2. Сведения по выплатам на закупку товаров, работ, услуг
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="lineNum" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="name" minOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="650"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lineCode" minOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="5"/>
+                        <xs:maxLength value="8"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="yearStart" minOccurs="0" type="t:yearType">
+                <xs:annotation>
+                    <xs:documentation>Год начала закупки</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="kbk" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="3"/>
+                        <xs:maxLength value="20"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="manually" minOccurs="0" type="xs:boolean"/>
+            <xs:element name="sum" type="Sum" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Суммы на текущий и плановые периоды</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Sum">
+        <xs:annotation>
+            <xs:documentation>Суммы на текущий и плановые периоды</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="financialYearSum" minOccurs="0" type="t:decimalType"/>
+            <xs:element name="planFirstYearSum" minOccurs="0" type="t:decimalType"/>
+            <xs:element name="planLastYearSum" minOccurs="0" type="t:decimalType"/>
+            <xs:element name="autPlanYearSum" minOccurs="0" type="t:decimalType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

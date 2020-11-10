@@ -1,0 +1,1 @@
+D:\1\libxml2-2.7.8.win32\bin\xmllint.exe --schema "xsd/External.xsd" financialActivityPlan_all_20200611093300_financialActivityPlan_new.xml
