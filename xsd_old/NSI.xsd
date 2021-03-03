@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by Alexander (Lanit) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://bus.gov.ru/types/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://bus.gov.ru/NSI/1" targetNamespace="http://bus.gov.ru/NSI/1" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://bus.gov.ru/types/1" schemaLocation="Types.xsd"/>
+	<xs:element name="consRegStat">
+		<xs:annotation>
+			<xs:documentation>Перечень неполных записей Сводного реестра</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="t:packetType">
+					<xs:sequence>
+						<xs:element name="body" type="t:consRegStatType" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Данные информационного пакета</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="confirmation">
+		<xs:annotation>
+			<xs:documentation>Протокол загрузки информационного пакета</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="t:packetType">
+					<xs:sequence>
+						<xs:element name="body">
+							<xs:annotation>
+								<xs:documentation>Данные информационного пакета</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:complexContent>
+									<xs:extension base="t:packetResultType">
+										<xs:sequence>
+											<xs:element name="refFileName" minOccurs="0">
+												<xs:annotation>
+													<xs:documentation>Имя обработанного файла</xs:documentation>
+												</xs:annotation>
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:minLength value="1"/>
+														<xs:maxLength value="1024"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="refType" type="refPacketTypeType">
+												<xs:annotation>
+													<xs:documentation>Тип обработанного пакета
+
+Допустимые значения:
+ REF_KLADR1 - Справочник «КЛАДР» (Классификатор адресов России);
+ REF_KLADR2 - Справочник «КЛАДР» (Классификатор адресов России);
+ REF_AddressTypes - Справочник «Типы адресных объектов»;
+ REF_KBK - Справочник кодов бюджетной классификации;
+ REF_KBKGlava - Справочник кодов ведомств;
+ REF_KBKKOSGU - Справочник «Коды КОСГУ»;
+ REF_Budgets - Справочник «Бюджеты»;
+ REF_OKATOtoOKTMO - Справочник «Таблица соответствия кодов ОКАТО кодам ОКТМО»;
+ REF_TOFK - Справочник территориальных органов Федерального казначейства»;
+ REF_OKATO - Общероссийский классификатор объектов административно-территориального деления;
+ REF_OKVED - Общероссийский классификатор видов экономической деятельности;
+ REF_OKEI - Общероссийский классификатор единиц измерения;
+ REF_OKOGU - Общероссийский классификатор органов государственной власти и управления;
+ REF_OKOPF - Общероссийский классификатор организационно-правовых форм;
+ REF_OKTMO - Общероссийский классификатор территорий муниципальных образований;
+ REF_OKFS - Общероссийский классификатор форм собственности;
+ REF_OKER - Общероссийский классификатор экономических регионов;
+ REF_UBPandNUBP - Реестр участников бюджетного процесса, а также юридических лиц, не являющихся участниками бюджетного процесса;
+ REF_REF_Authorities - Справочник «Полномочия организаций»
+													</xs:documentation>
+												</xs:annotation>
+											</xs:element>
+										</xs:sequence>
+									</xs:extension>
+								</xs:complexContent>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="refPacketTypeType">
+		<xs:annotation>
+			<xs:documentation>Тип обработанного пакета</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="REF_KLADR1"/>
+			<xs:enumeration value="REF_KLADR2"/>
+			<xs:enumeration value="REF_AddressTypes"/>
+			<xs:enumeration value="REF_KBK"/>
+			<xs:enumeration value="REF_KBKGlava"/>
+			<xs:enumeration value="REF_KBKKOSGU"/>
+			<xs:enumeration value="REF_Budgets"/>
+			<xs:enumeration value="REF_OKATOtoOKTMO"/>
+			<xs:enumeration value="REF_TOFK"/>
+			<xs:enumeration value="REF_OKATO"/>
+			<xs:enumeration value="REF_OKVED"/>
+			<xs:enumeration value="REF_OKEI"/>
+			<xs:enumeration value="REF_OKOGU"/>
+			<xs:enumeration value="REF_OKOPF"/>
+			<xs:enumeration value="REF_OKTMO"/>
+			<xs:enumeration value="REF_OKFS"/>
+			<xs:enumeration value="REF_OKER"/>
+			<xs:enumeration value="REF_UBPandNUBP"/>
+			<xs:enumeration value="REF_Authorities"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

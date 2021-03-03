@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by Alexander (Lanit) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://bus.gov.ru/types/2"
+           xmlns:t="http://bus.gov.ru/types/1" targetNamespace="http://bus.gov.ru/types/2"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:import namespace="http://bus.gov.ru/types/1" schemaLocation="Types.xsd"/>
+    <xs:complexType name="annualBalanceF0503762Type">
+        <xs:annotation>
+            <xs:documentation>Сведения о результатах деятельности учреждения по исполнению государственного
+                (муниципального) задания (ф. 0503762)
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="t:institutionPositionType">
+                <xs:sequence>
+                    <xs:element name="formationPeriod" type="t:yearType" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>Период формирования данных</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="generalData" type="annualBalanceGeneralDataType">
+                        <xs:annotation>
+                            <xs:documentation>Общие данные</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="document" type="t:documentType" minOccurs="0" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation>Документ</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="annualBalanceGeneralDataType">
+        <xs:annotation>
+            <xs:documentation>Сведения о результатах деятельности учреждения по исполнению государственного
+                (муниципального) задания (ф. 0503762)
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="common" type="common">
+                <xs:annotation>
+                    <xs:documentation>Общая информация</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="reportItem" type="results" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Сведения о результатах учреждения по исполнению государственного (муниципального)
+                        задания
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="common">
+        <xs:annotation>
+            <xs:documentation>Общие данные по исполнению государственного (муниципального)
+                задания
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="publishDate" type="xs:date">
+                <xs:annotation>
+                    <xs:documentation>Дата формирования</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="confirmBalanceDate" type="xs:date">
+                <xs:annotation>
+                    <xs:documentation>Дата утверждения</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="provideBalanceDate" type="xs:date">
+                <xs:annotation>
+                    <xs:documentation>Дата</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="agencyName" type="t:refNsiConsRegExtendedSoftType">
+                <xs:annotation>
+                    <xs:documentation>Учреждение</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="separateStructuralUnitName" type="t:refNsiConsRegExtendedSoftType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Обособленное подразделение</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="founderName" type="t:refNsiConsRegExtendedSoftType"  minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Учредитель</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="founderAuthorityName" type="t:refNsiConsRegExtendedSoftType">
+                <xs:annotation>
+                    <xs:documentation>Наименование органа, осуществляющего полномочия учредителя</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="results">
+        <xs:annotation>
+            <xs:documentation>Сведения о результатах учреждения по исполнению государственного (муниципального)
+                задания
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="code" nillable="false">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="5"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lineItem" nillable="false">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="4000"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="okei" type="t:refNsiOkeiType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Единица измерения. Значение «руб»</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="plannedCount"  minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                        <xs:pattern value="\d{0,15},\d{0,5}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="plannedSum" type="t:decimalType"  minOccurs="0"></xs:element>
+            <xs:element name="factualCount"  minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                        <xs:pattern value="\d{0,15},\d{0,5}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="factualSum" type="t:decimalType"  minOccurs="0" ></xs:element>
+            <xs:element name="reject" type="t:decimalType"  minOccurs="0"></xs:element>
+            <xs:element name="rejectReason"  minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="0"/>
+                        <xs:maxLength value="300"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

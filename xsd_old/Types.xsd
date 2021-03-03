@@ -1412,7 +1412,7 @@
 					</xs:element>
 					<xs:element name="nonFinancialAssets">
 						<xs:annotation>
-							<xs:documentation>Нефинансовые активы</xs:documentation>
+							<xs:documentation>Операции с нефинансовыми активами</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
@@ -1426,7 +1426,7 @@
 					</xs:element>
 					<xs:element name="financialAssets">
 						<xs:annotation>
-							<xs:documentation>Финансовые активы и обязательства</xs:documentation>
+							<xs:documentation>Операции с финансовыми активами и обязательствами</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
@@ -1494,7 +1494,7 @@
 					</xs:element>
 					<xs:element name="nonFinancialAssets">
 						<xs:annotation>
-							<xs:documentation>Нефинансовые активы</xs:documentation>
+							<xs:documentation>Операции с нефинансовыми активами</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
@@ -1508,7 +1508,7 @@
 					</xs:element>
 					<xs:element name="financialAssets">
 						<xs:annotation>
-							<xs:documentation>Финансовые активы и обязательства</xs:documentation>
+							<xs:documentation>Операции с финансовыми активами и обязательствами</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
@@ -1576,7 +1576,7 @@
 					</xs:element>
 					<xs:element name="nonFinancialAssets">
 						<xs:annotation>
-							<xs:documentation>Нефинансовые активы</xs:documentation>
+							<xs:documentation>Операции с нефинансовыми активами</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
@@ -1590,7 +1590,7 @@
 					</xs:element>
 					<xs:element name="financialAssets">
 						<xs:annotation>
-							<xs:documentation>Финансовые активы и обязательства</xs:documentation>
+							<xs:documentation>Операции с финансовыми активами и обязательствами</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
@@ -2391,20 +2391,6 @@
 								<xs:element name="returnCostItemsByHand" minOccurs="0">
 									<xs:annotation>
 										<xs:documentation>Сведения о расходах учреждения (введены вручную)</xs:documentation>
-									</xs:annotation>
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="reportItem" type="reportItemF0503737BaseType" minOccurs="0" maxOccurs="unbounded">
-												<xs:annotation>
-													<xs:documentation>Запись верхнего уровня в отчете об исполнении учреждением плана его финансово-хозяйственной деятельности (ф. 0503737)</xs:documentation>
-												</xs:annotation>
-											</xs:element>
-										</xs:sequence>
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="IncomeItemsByHand" minOccurs="0">
-									<xs:annotation>
-										<xs:documentation>Сведения о доходах учреждения (введены вручную)</xs:documentation>
 									</xs:annotation>
 									<xs:complexType>
 										<xs:sequence>
@@ -3394,6 +3380,7 @@
 																				<xs:restriction base="xs:string">
 																					<xs:minLength value="1"/>
 																					<xs:maxLength value="50"/>
+																					<xs:pattern value="((\p{L}|\d){9}|(\p{L}|\d){11}|(\p{L}|\d){16})"/>
 																				</xs:restriction>
 																			</xs:simpleType>
 																		</xs:element>
@@ -3423,7 +3410,7 @@
 																			</xs:annotation>
 																			<xs:simpleType>
 																				<xs:restriction base="xs:string">
-																					<xs:pattern value="(\p{L}|\d){11}"/>
+																					<xs:pattern value="((\p{L}|\d){9}|(\p{L}|\d){11}|(\p{L}|\d){16})"/>
 																				</xs:restriction>
 																			</xs:simpleType>
 																		</xs:element>
@@ -3455,6 +3442,7 @@
 																				<xs:restriction base="xs:string">
 																					<xs:minLength value="1"/>
 																					<xs:maxLength value="50"/>
+																					<xs:pattern value="((\p{L}|\d){9}|(\p{L}|\d){11}|(\p{L}|\d){16})"/>
 																				</xs:restriction>
 																			</xs:simpleType>
 																		</xs:element>
@@ -7444,7 +7432,7 @@
 				</xs:annotation>
 				<xs:simpleType>
 					<xs:restriction base="xs:string">
-						<xs:pattern value="\d{2}[AАBВKКTТXХZ\d]|[XХ]"/>
+						<xs:pattern value="\d{2}[XХ\d]|[XХ]"/>
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>

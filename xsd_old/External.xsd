@@ -694,33 +694,6 @@
 			</xs:complexContent>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="financialActivityPlanFederalAgency2021">
-		<xs:annotation>
-			<xs:documentation>Информация о плане финансово-хозяйственной деятельности федеральных учреждений, начиная с 2021 года</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="t:packetType">
-					<xs:sequence>
-						<xs:element name="body">
-							<xs:annotation>
-								<xs:documentation>Данные информационного пакета</xs:documentation>
-							</xs:annotation>
-							<xs:complexType>
-								<xs:sequence>
-									<xs:element name="position" type="f:financialActivityPlanFederalAgency2021Type">
-										<xs:annotation>
-											<xs:documentation>Позиция в информационном пакете</xs:documentation>
-										</xs:annotation>
-									</xs:element>
-								</xs:sequence>
-							</xs:complexType>
-						</xs:element>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
 	<xs:element name="inspectionActivity">
 		<xs:annotation>
 			<xs:documentation>Сведения о проведенных в отношении учреждения контрольных мероприятиях и их результатах</xs:documentation>

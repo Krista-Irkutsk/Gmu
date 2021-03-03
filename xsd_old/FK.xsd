@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by Alexander (Lanit) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://bus.gov.ru/fk/1" xmlns:t="http://bus.gov.ru/types/1" targetNamespace="http://bus.gov.ru/fk/1" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://bus.gov.ru/types/1" schemaLocation="Types.xsd"/>
+	<xs:element name="confirmation">
+		<xs:annotation>
+			<xs:documentation>Протокол загрузки информационного пакета</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="t:packetType">
+					<xs:sequence>
+						<xs:element name="body">
+							<xs:annotation>
+								<xs:documentation>Данные информационного пакета</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:complexContent>
+									<xs:extension base="t:packetResultType">
+										<xs:sequence>
+											<xs:element name="refFileName" minOccurs="0">
+												<xs:annotation>
+													<xs:documentation>Имя обработанного файла</xs:documentation>
+												</xs:annotation>
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:minLength value="1"/>
+														<xs:maxLength value="1024"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="refType">
+												<xs:annotation>
+													<xs:documentation>Тип обработанного пакета
+
+Допустимые значения:
+ OGS - перечень ГМУ;
+ CRC - заявка на изменение перечня ГМУ при передаче в органы ФК от учреждения или организации, являющейся представителем учреждения;
+ CRS - заявка на изменение перечня ГМУ при подаче в АС ФК от Официального сайта ГМУ;
+ REG - реестр размещенных сведений.</xs:documentation>
+												</xs:annotation>
+												<xs:simpleType>
+													<xs:restriction base="refPacketTypeType"/>
+												</xs:simpleType>
+											</xs:element>
+										</xs:sequence>
+									</xs:extension>
+								</xs:complexContent>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nsiOgs">
+		<xs:annotation>
+			<xs:documentation>Перечень государственных (муниципальных) учреждений</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="t:versionedPacketType_ogs">
+					<xs:sequence>
+						<xs:element name="body">
+							<xs:annotation>
+								<xs:documentation>Данные информационного пакета</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="position" type="t:nsiOgsType" maxOccurs="unbounded">
+										<xs:annotation>
+											<xs:documentation>Позиция в информационном пакете</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="regPublishedInfo">
+		<xs:annotation>
+			<xs:documentation>Реестр размещенных сведений</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="t:versionedPacketType_ogs">
+					<xs:sequence>
+						<xs:element name="body">
+							<xs:annotation>
+								<xs:documentation>Данные информационного пакета</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="position" type="t:regPublishedInfoType" maxOccurs="unbounded">
+										<xs:annotation>
+											<xs:documentation>Позиция в информационном пакете</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="loadNum" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>Инкрементальный номер выгрузки с начала года</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:int">
+												<xs:totalDigits value="3"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="refPacketTypeType">
+		<xs:annotation>
+			<xs:documentation>Тип обработанного пакета</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="OGS"/>
+			<xs:enumeration value="CRC"/>
+			<xs:enumeration value="CRS"/>
+			<xs:enumeration value="REG"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

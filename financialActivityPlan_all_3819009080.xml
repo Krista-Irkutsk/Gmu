@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ns3:financialActivityPlan2020 xsi:schemaLocation="http://bus.gov.ru/External/1 http://bus.gov.ru/public/schema/TFF-1.7.8.19/External.xsd" xmlns="http://bus.gov.ru/types/1" xmlns:ns2="http://bus.gov.ru/types/3" xmlns:ns4="http://bus.gov.ru/types/2" xmlns:ns3="http://bus.gov.ru/external/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<header>
-		<id>729a037e-91ba-47d8-8ee6-7439c245f03d</id>
-		<createDateTime>2020-11-09T15:51:50.519+03:00</createDateTime>
+		<id>f82337d5-7784-489b-8102-90bc48637159</id>
+		<createDateTime>2021-02-25T03:28:49.770+03:00</createDateTime>
 	</header>
 	<ns3:body>
 		<ns3:position>
-			<positionId>f1184a19-2f6a-4ae6-bff8-a9a01fae7a31</positionId>
-			<changeDate>2020-11-09T15:51:50.519+03:00</changeDate>
+			<positionId>6d214955-93de-4eb0-8685-82dc9efbfbb1</positionId>
+			<changeDate>2021-02-25T03:28:49.770+03:00</changeDate>
 			<placer>
 				<regNum>25301832</regNum>
 				<fullName>МБОУ 'Гимназия № 1'</fullName>
@@ -54,7 +54,7 @@
 				<ns2:lineCode>0002</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>-7.45058059e-09</ns2:financialYearSum>
+					<ns2:financialYearSum>0</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -66,7 +66,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>100</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>46516591.58</ns2:financialYearSum>
+					<ns2:financialYearSum>52218166.85</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -89,7 +89,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>130</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>39671169.31</ns2:financialYearSum>
+					<ns2:financialYearSum>46477282.51</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -99,9 +99,9 @@
 				<ns2:name> в том числе субсидии на финансовое обеспечение выполнения государственного муниципального задания за счет средств бюджета публичноправового образования создавшего учреждение</ns2:name>
 				<ns2:lineCode>1210</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
-				<ns2:analyticCode>131</ns2:analyticCode>
+				<ns2:analyticCode>130</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>39671169.31</ns2:financialYearSum>
+					<ns2:financialYearSum>46477282.51</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -124,7 +124,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>131</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>39671169.31</ns2:financialYearSum>
+					<ns2:financialYearSum>46477282.51</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -147,7 +147,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>150</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>6845422.27</ns2:financialYearSum>
+					<ns2:financialYearSum>5739255.34</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -159,7 +159,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>152</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>6756941.95</ns2:financialYearSum>
+					<ns2:financialYearSum>5669377.24</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -171,7 +171,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>155</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>88480.32</ns2:financialYearSum>
+					<ns2:financialYearSum>69878.1</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -215,7 +215,19 @@
 				<ns2:lineCode>1900</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>0</ns2:financialYearSum>
+					<ns2:financialYearSum>1629.0</ns2:financialYearSum>
+					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
+					<ns2:planLastYearSum>0</ns2:planLastYearSum>
+					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
+				</ns2:sum>
+			</ns2:planPaymentIndex>
+			<ns2:planPaymentIndex>
+				<ns2:name> Уменьшение стоимости прочих оборотных ценностей материалов</ns2:name>
+				<ns2:lineCode></ns2:lineCode>
+				<ns2:manually>false</ns2:manually>
+				<ns2:analyticCode>446</ns2:analyticCode>
+				<ns2:sum>
+					<ns2:financialYearSum>1629.0</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -247,8 +259,8 @@
 				<ns2:lineCode>2000</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>47612600.99</ns2:financialYearSum>
-					<ns2:planFirstYearSum>42720602.71</ns2:planFirstYearSum>
+					<ns2:financialYearSum>53314176.26</ns2:financialYearSum>
+					<ns2:planFirstYearSum>42290787.71</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>42273902.71</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
 				</ns2:sum>
@@ -258,7 +270,7 @@
 				<ns2:lineCode>2100</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>36560271.89</ns2:financialYearSum>
+					<ns2:financialYearSum>43155530.76</ns2:financialYearSum>
 					<ns2:planFirstYearSum>34653992.93</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>34653992.93</ns2:planLastYearSum>
 				</ns2:sum>
@@ -268,7 +280,7 @@
 				<ns2:lineCode>2110</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>28143426.82</ns2:financialYearSum>
+					<ns2:financialYearSum>33692969.01</ns2:financialYearSum>
 					<ns2:planFirstYearSum>26691585.97</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>26691585.97</ns2:planLastYearSum>
 				</ns2:sum>
@@ -279,7 +291,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>211</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>28053426.82</ns2:financialYearSum>
+					<ns2:financialYearSum>33615123.65</ns2:financialYearSum>
 					<ns2:planFirstYearSum>26691585.97</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>26691585.97</ns2:planLastYearSum>
 				</ns2:sum>
@@ -290,7 +302,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>266</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>90000.0</ns2:financialYearSum>
+					<ns2:financialYearSum>77845.36</ns2:financialYearSum>
 					<ns2:planFirstYearSum>0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -321,7 +333,7 @@
 				<ns2:lineCode>2140</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>8416845.07</ns2:financialYearSum>
+					<ns2:financialYearSum>9462561.75</ns2:financialYearSum>
 					<ns2:planFirstYearSum>7962406.96</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>7962406.96</ns2:planLastYearSum>
 				</ns2:sum>
@@ -332,7 +344,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>213</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>8416845.07</ns2:financialYearSum>
+					<ns2:financialYearSum>9462561.75</ns2:financialYearSum>
 					<ns2:planFirstYearSum>7962406.96</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>7962406.96</ns2:planLastYearSum>
 				</ns2:sum>
@@ -563,8 +575,8 @@
 				<ns2:lineCode>2600</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>10742279.1</ns2:financialYearSum>
-					<ns2:planFirstYearSum>7914750.96</ns2:planFirstYearSum>
+					<ns2:financialYearSum>9848595.5</ns2:financialYearSum>
+					<ns2:planFirstYearSum>7484935.96</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>7468050.96</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
 				</ns2:sum>
@@ -597,7 +609,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
 					<ns2:financialYearSum>845579.58</ns2:financialYearSum>
-					<ns2:planFirstYearSum>446700.0</ns2:planFirstYearSum>
+					<ns2:planFirstYearSum>16885.0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
 				</ns2:sum>
@@ -607,7 +619,7 @@
 				<ns2:lineCode>2640</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>9896699.52</ns2:financialYearSum>
+					<ns2:financialYearSum>9003015.92</ns2:financialYearSum>
 					<ns2:planFirstYearSum>7468050.96</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>7468050.96</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -631,7 +643,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>223</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>1587774.19</ns2:financialYearSum>
+					<ns2:financialYearSum>1938010.75</ns2:financialYearSum>
 					<ns2:planFirstYearSum>1800538.9</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>1800538.9</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -643,7 +655,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>225</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>664586.3</ns2:financialYearSum>
+					<ns2:financialYearSum>795918.4</ns2:financialYearSum>
 					<ns2:planFirstYearSum>673896.27</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>673896.27</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -655,7 +667,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>226</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>5553817.66</ns2:financialYearSum>
+					<ns2:financialYearSum>4116088.62</ns2:financialYearSum>
 					<ns2:planFirstYearSum>3336770.34</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>3336770.34</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -667,7 +679,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>310</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>1486816.7</ns2:financialYearSum>
+					<ns2:financialYearSum>1558362.8</ns2:financialYearSum>
 					<ns2:planFirstYearSum>1394723.55</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>1394723.55</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -703,7 +715,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>346</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>194706.01</ns2:financialYearSum>
+					<ns2:financialYearSum>189448.94</ns2:financialYearSum>
 					<ns2:planFirstYearSum>209396.01</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>209396.01</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -715,7 +727,7 @@
 				<ns2:manually>false</ns2:manually>
 				<ns2:analyticCode>349</ns2:analyticCode>
 				<ns2:sum>
-					<ns2:financialYearSum>19079.0</ns2:financialYearSum>
+					<ns2:financialYearSum>15266.75</ns2:financialYearSum>
 					<ns2:planFirstYearSum>19079.0</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>19079.0</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
@@ -819,8 +831,8 @@
 				<ns2:lineCode>26000</ns2:lineCode>
 				<ns2:manually>false</ns2:manually>
 				<ns2:sum>
-					<ns2:financialYearSum>10742279.10</ns2:financialYearSum>
-					<ns2:planFirstYearSum>7914750.96</ns2:planFirstYearSum>
+					<ns2:financialYearSum>9848595.50</ns2:financialYearSum>
+					<ns2:planFirstYearSum>7484935.96</ns2:planFirstYearSum>
 					<ns2:planLastYearSum>7468050.96</ns2:planLastYearSum>
 					<ns2:autPlanYearSum>0</ns2:autPlanYearSum>
 				</ns2:sum>
