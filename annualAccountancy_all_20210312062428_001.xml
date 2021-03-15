@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ns2:annualBalanceF0503730_2015 xmlns="http://bus.gov.ru/types/1" xmlns:ns2="http://bus.gov.ru/external/1" xmlns:ns3="http://bus.gov.ru/fk/1" xmlns:ns4="http://bus.gov.ru/nsi/1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<header><id>90622427-fab2-49d7-a095-7e7d4ae5c935</id><createDateTime>2021-03-01T14:56:01</createDateTime></header>
+<header><id>90622427-fab2-49d7-a095-7e7d4ae5c935</id><createDateTime>2021-03-12T06:24:28</createDateTime></header>
 <ns2:body><ns2:position>
 <positionId>90622427-fab2-49d7-a095-7e7d4ae5c935</positionId>
 <changeDate>2021-02-02T19:05:47</changeDate>
-<placer>
-<fullName>&quot;МУНИЦИПАЛЬНОЕ АВТОНОМНОЕ ДОШКОЛЬНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ДЕТСКИЙ САД № 22 &quot;&quot;СОЛНЫШКО&quot;&quot; КОМБИНИРОВАННОГО ВИДА ГОРОДА КЫЗЫЛА РЕСПУБЛИКИ ТЫВА&quot;</fullName>
-<inn>1701064011</inn>
-<kpp>170101001</kpp>
-</placer>
-<initiator>
-<regNum>93300223</regNum>
-<fullName>Муниципальное казенное учреждение Департамент по образованию Мэрии города Кызыла Республики Тыва</fullName>
-<inn>1701049630</inn>
-<kpp>170101001</kpp>
-</initiator>
-<versionNumber>1</versionNumber>
 <formationPeriod>2020</formationPeriod>
 <generalData>
 <date>2021-01-01</date>

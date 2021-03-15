@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns2:annualBalanceF0503730_2015 xmlns="http://bus.gov.ru/types/1" xmlns:ns2="http://bus.gov.ru/external/1" xmlns:ns3="http://bus.gov.ru/fk/1" xmlns:ns4="http://bus.gov.ru/nsi/1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header>
+		<id>d2b2ee2f-2c18-481a-ae17-f5557dfff5f2</id>
+		<createDateTime>2021-03-15T05:43:41.869+03:00</createDateTime>
+	</header>
+	<ns2:body>
+		<ns2:position>
+			<positionId>53bddf8b-3fd4-44f4-896f-3953a0fa333f</positionId>
+			<changeDate>2021-03-15T05:43:41.870+03:00</changeDate>
+			<formationPeriod>2020</formationPeriod>
+			<generalData>
+				<date>2010-11-30+03:00</date>
+				<periodicity>annual</periodicity>
+				<okei>
+					<code>383</code>
+					<symbol>руб</symbol>
+				</okei>
+				<okpo>51517756</okpo>
+				<inn>3819009080</inn>
+				<section>864</section>
+				<oktmo>
+					<code>25736000001</code>
+					<name>г.Усолье-Сибирское</name>
+				</oktmo>
+				<founderName>ОТДЕЛ ОБРАЗОВАНИЯ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ</founderName>
+				<founderAuthority>
+					<regNum>25304951</regNum>
+					<fullName>ОТДЕЛ ОБРАЗОВАНИЯ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ</fullName>
+				</founderAuthority>
+				<founderAuthorityOkpo>68596576</founderAuthorityOkpo>
+				<separateStructuralUnitOkpo>68596576</separateStructuralUnitOkpo>
+			</generalData>
+			<nonFinancialAssets>
+				<reportItem>
+					<name>Основные средства (балансовая стоимость, 010100000)*</name>
+					<lineCode>010</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>42953569.86</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>43349222.93</stateTaskFundsEndYear>
+					<revenueFundsStartYear>396631.65</revenueFundsStartYear>
+					<revenueFundsEndYear>307257.08</revenueFundsEndYear>
+					<totalStartYear>43350201.51</totalStartYear>
+					<totalEndYear>43656480.01</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Уменьшение стоимости основных средств всего</name>
+					<lineCode>020</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>28195146.93</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>28900521.43</stateTaskFundsEndYear>
+					<revenueFundsStartYear>396631.65</revenueFundsStartYear>
+					<revenueFundsEndYear>307257.08</revenueFundsEndYear>
+					<totalStartYear>28591778.58</totalStartYear>
+					<totalEndYear>29207778.51</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них амортизация основных средств</name>
+					<lineCode>021</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>28195146.93</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>28900521.43</stateTaskFundsEndYear>
+					<revenueFundsStartYear>396631.65</revenueFundsStartYear>
+					<revenueFundsEndYear>307257.08</revenueFundsEndYear>
+					<totalStartYear>28591778.58</totalStartYear>
+					<totalEndYear>29207778.51</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Основные средства остаточная стоимость стр010  стр020</name>
+					<lineCode>030</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>14758422.93</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>14448701.50</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>14758422.93</totalStartYear>
+					<totalEndYear>14448701.50</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Нематериальные активы балансовая стоимость 010200000</name>
+					<lineCode>040</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Уменьшение стоимости нематериальных активов  всего</name>
+					<lineCode>050</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них амортизация нематериальных активов</name>
+					<lineCode>051</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Нематериальные активы остаточная стоимость стр040  стр050</name>
+					<lineCode>060</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Непроизведенные активы 010300000</name>
+					<lineCode>070</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>23126806.05</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>23126806.05</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>23126806.05</totalStartYear>
+					<totalEndYear>23126806.05</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Материальные запасы 010500000 всего</name>
+					<lineCode>080</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>194194.69</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>193213.01</stateTaskFundsEndYear>
+					<revenueFundsStartYear>62572.93</revenueFundsStartYear>
+					<revenueFundsEndYear>24878.00</revenueFundsEndYear>
+					<totalStartYear>256767.62</totalStartYear>
+					<totalEndYear>218091.01</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них внеоборотные</name>
+					<lineCode>081</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Права пользования активами 011100000остаточная стоимость всего</name>
+					<lineCode>100</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них долгосрочные</name>
+					<lineCode>101</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Вложения в нефинансовые активы 010600000 всего</name>
+					<lineCode>120</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>  из них  внеоборотные</name>
+					<lineCode>121</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Нефинансовые активы в пути 010700000</name>
+					<lineCode>130</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Затраты на изготовление готовой продукции выполнение работ услуг 010900000</name>
+					<lineCode>150</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Расходы будущих периодов 40150000</name>
+					<lineCode>160</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Итого по разделу I (стр.030 + стр.060 + стр.070 + стр.080 + стр.100 + стр.120 + стр.130 + стр.150 + стр.160)</name>
+					<lineCode>190</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>38079423.67</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>37768720.56</stateTaskFundsEndYear>
+					<revenueFundsStartYear>62572.93</revenueFundsStartYear>
+					<revenueFundsEndYear>24878.00</revenueFundsEndYear>
+					<totalStartYear>38141996.60</totalStartYear>
+					<totalEndYear>37793598.56</totalEndYear>
+				</reportItem>
+			</nonFinancialAssets>
+			<financialAssets>
+				<reportItem>
+					<name>Денежные средства учреждения (020100000), всего</name>
+					<lineCode>200</lineCode>
+					<targetFundsStartYear>759239.93</targetFundsStartYear>
+					<targetFundsEndYear>585439.65</targetFundsEndYear>
+					<stateTaskFundsStartYear>306848.93</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>87840.60</stateTaskFundsEndYear>
+					<revenueFundsStartYear>29920.55</revenueFundsStartYear>
+					<revenueFundsEndYear>17651.65</revenueFundsEndYear>
+					<totalStartYear>1096009.41</totalStartYear>
+					<totalEndYear>690931.90</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> в том числе на лицевых счетах учреждения в органе казначейства 020110000</name>
+					<lineCode>201</lineCode>
+					<targetFundsStartYear>759239.93</targetFundsStartYear>
+					<targetFundsEndYear>585439.65</targetFundsEndYear>
+					<stateTaskFundsStartYear>306848.93</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>87840.60</stateTaskFundsEndYear>
+					<revenueFundsStartYear>29920.55</revenueFundsStartYear>
+					<revenueFundsEndYear>17651.65</revenueFundsEndYear>
+					<totalStartYear>1096009.41</totalStartYear>
+					<totalEndYear>690931.90</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>  в кредитной организации 020120000 всего</name>
+					<lineCode>203</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>  из них  на депозитах 020122000 всего</name>
+					<lineCode>204</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>  из них  долгосрочные</name>
+					<lineCode>205</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> в иностранной валюте  020127000</name>
+					<lineCode>206</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> в кассе учреждения 020130000</name>
+					<lineCode>207</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Финансовые вложения 020400000 всего</name>
+					<lineCode>240</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них долгосрочные</name>
+					<lineCode>241</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Дебиторская задолженность по доходам 020500000020900000 всего</name>
+					<lineCode>250</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из инх долгосрочная</name>
+					<lineCode>251</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Дебиторская задолженность по выплатам 020600000020800000030300000 всего</name>
+					<lineCode>260</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>58415.65</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>58415.65</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из  них долгосрочная</name>
+					<lineCode>261</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> Расчеты по займам ссудам 020700000 всего</name>
+					<lineCode>270</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них долгосрочные</name>
+					<lineCode>271</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Прочие расчеты с дебиторами 021000000 всего</name>
+					<lineCode>280</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>  из них  расчеты по налоговым вычетам по НДС 021010000</name>
+					<lineCode>282</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Вложения в финансовые активы 021500000</name>
+					<lineCode>290</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Итого по разделу II (стр.200 + стр.240 + стр.250 + стр.260 + стр.270 + стр.280 + стр.290)</name>
+					<lineCode>340</lineCode>
+					<targetFundsStartYear>759239.93</targetFundsStartYear>
+					<targetFundsEndYear>585439.65</targetFundsEndYear>
+					<stateTaskFundsStartYear>365264.58</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>87840.60</stateTaskFundsEndYear>
+					<revenueFundsStartYear>29920.55</revenueFundsStartYear>
+					<revenueFundsEndYear>17651.65</revenueFundsEndYear>
+					<totalStartYear>1154425.06</totalStartYear>
+					<totalEndYear>690931.90</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>БАЛАНС стр 190  стр 340</name>
+					<lineCode>350</lineCode>
+					<targetFundsStartYear>759239.93</targetFundsStartYear>
+					<targetFundsEndYear>585439.65</targetFundsEndYear>
+					<stateTaskFundsStartYear>38444688.25</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>37856561.16</stateTaskFundsEndYear>
+					<revenueFundsStartYear>92493.48</revenueFundsStartYear>
+					<revenueFundsEndYear>42529.65</revenueFundsEndYear>
+					<totalStartYear>39296421.66</totalStartYear>
+					<totalEndYear>38484530.46</totalEndYear>
+				</reportItem>
+			</financialAssets>
+			<commitments>
+				<reportItem>
+					<name>Расчеты с кредиторами по долговым обязательствам (030100000), всего</name>
+					<lineCode>400</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них долгосрочные</name>
+					<lineCode>401</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Кредиторская задолженность по выплатам 030200000020800000030402000030403000 всего</name>
+					<lineCode>410</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>249852.43</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>618726.53</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>249852.43</totalStartYear>
+					<totalEndYear>618726.53</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них долгосрочная</name>
+					<lineCode>411</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Расчеты по платежам в бюджеты 030300000</name>
+					<lineCode>420</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>86724.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>1302917.29</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>86724.00</totalStartYear>
+					<totalEndYear>1302917.29</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Иные расчеты всего</name>
+					<lineCode>430</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> в том числе расчеты по средствам полученным во временное распоряжение 030401000</name>
+					<lineCode>431</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> внутриведомственные расчеты 030404000</name>
+					<lineCode>432</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> расчеты с прочими кредиторами 030406000</name>
+					<lineCode>433</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> расчет по налоговым вычетам по НДС 021010000</name>
+					<lineCode>434</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Кредиторская задолженность по доходам 020500000020900000 всего</name>
+					<lineCode>470</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name> из них долгосрочная</name>
+					<lineCode>471</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>0.00</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Расчеты с учредителем 021006000</name>
+					<lineCode>480</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>0.00</targetFundsEndYear>
+					<stateTaskFundsStartYear>56865375.73</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>56865375.73</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>56865375.73</totalStartYear>
+					<totalEndYear>56865375.73</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Доходы будущих периодов 040140000</name>
+					<lineCode>510</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>585439.65</targetFundsEndYear>
+					<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>87840.60</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>0.00</totalStartYear>
+					<totalEndYear>673280.25</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Резервы предстоящих расходов 040160000</name>
+					<lineCode>520</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>108421.51</targetFundsEndYear>
+					<stateTaskFundsStartYear>2452045.93</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>3992263.83</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>2452045.93</totalStartYear>
+					<totalEndYear>4100685.34</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>Итого по разделу III (стр.400 + стр.410 + стр.420 + стр.430 + стр.470 + стр.480 + стр.510 + стр.520)</name>
+					<lineCode>550</lineCode>
+					<targetFundsStartYear>0.00</targetFundsStartYear>
+					<targetFundsEndYear>693861.16</targetFundsEndYear>
+					<stateTaskFundsStartYear>59653998.09</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>62867123.98</stateTaskFundsEndYear>
+					<revenueFundsStartYear>0.00</revenueFundsStartYear>
+					<revenueFundsEndYear>0.00</revenueFundsEndYear>
+					<totalStartYear>59653998.09</totalStartYear>
+					<totalEndYear>63560985.14</totalEndYear>
+				</reportItem>
+			</commitments>
+			<financialResult>
+				<reportItem>
+					<name>Финансовый результат экономического субъекта</name>
+					<lineCode>570</lineCode>
+					<targetFundsStartYear>759239.93</targetFundsStartYear>
+					<targetFundsEndYear>-108421.51</targetFundsEndYear>
+					<stateTaskFundsStartYear>-21209309.84</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>-25010562.82</stateTaskFundsEndYear>
+					<revenueFundsStartYear>92493.48</revenueFundsStartYear>
+					<revenueFundsEndYear>42529.65</revenueFundsEndYear>
+					<totalStartYear>-20357576.43</totalStartYear>
+					<totalEndYear>-25076454.68</totalEndYear>
+				</reportItem>
+				<reportItem>
+					<name>БАЛАНС стр 550  стр 570</name>
+					<lineCode>700</lineCode>
+					<targetFundsStartYear>759239.93</targetFundsStartYear>
+					<targetFundsEndYear>585439.65</targetFundsEndYear>
+					<stateTaskFundsStartYear>38444688.25</stateTaskFundsStartYear>
+					<stateTaskFundsEndYear>37856561.16</stateTaskFundsEndYear>
+					<revenueFundsStartYear>92493.48</revenueFundsStartYear>
+					<revenueFundsEndYear>42529.65</revenueFundsEndYear>
+					<totalStartYear>39296421.66</totalStartYear>
+					<totalEndYear>38484530.46</totalEndYear>
+				</reportItem>
+			</financialResult>
+			<reference>
+<reportItem>
+<name>Имущество, полученное в пользование</name>
+<lineCode>010</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Материальные ценности на хранении</name>
+<lineCode>020</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Бланки строгой отчетности</name>
+<lineCode>030</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Сомнительная задолженность, всего</name>
+<lineCode>040</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Материальные ценности, оплаченные по централизованному снабжению</name>
+<lineCode>050</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Задолженность учащихся и студентов за невозвращенные материальные ценности</name>
+<lineCode>060</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Награды, призы, кубки и ценные подарки, сувениры</name>
+<lineCode>070</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Путевки неоплаченные</name>
+<lineCode>080</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Запасные части к транспортным средствам, выданные взамен изношенных</name>
+<lineCode>090</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Обеспечение исполнения обязательств, всего</name>
+<lineCode>100</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+<reportSubItem>
+<name>задаток</name>
+<lineCode>101</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>залог</name>
+<lineCode>102</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>банковская гарантия</name>
+<lineCode>103</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>поручительство</name>
+<lineCode>104</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>иное обеспечение</name>
+<lineCode>105</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+</reportItem>
+<reportItem>
+<name>Спецоборудование для выполнения научно-исследовательских работ по договорам с заказчиками</name>
+<lineCode>120</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Экспериментальные устройства</name>
+<lineCode>130</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Расчетные документы, не оплаченные в срок из-за отсутствия средств на счете государственного (мунципального) учреждения</name>
+<lineCode>150</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Переплата пенсий и пособий вследствие неправильного применения законодательства о пенсиях и пособиях, счетных ошибок</name>
+<lineCode>160</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Поступления денежных средств, всего</name>
+<lineCode>170</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+<reportSubItem>
+<name>доходы</name>
+<lineCode>171</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>расходы</name>
+<lineCode>172</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>источники финансирования дефицита</name>
+<lineCode>173</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+</reportItem>
+<reportItem>
+<name>Выбытия денежных средств, всего</name>
+<lineCode>180</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+<reportSubItem>
+<name>доходы</name>
+<lineCode>181</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>расходы</name>
+<lineCode>182</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+<reportSubItem>
+<name>источники финансирования дефицита</name>
+<lineCode>183</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportSubItem>
+</reportItem>
+<reportItem>
+<name>Задолженность, не востребованная кредиторами, всего</name>
+<lineCode>200</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Основные средства в эксплуатации</name>
+<lineCode>210</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Материальные ценности, полученные по централизованному снабжению</name>
+<lineCode>220</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Периодические издания для пользования</name>
+<lineCode>230</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Нефинансовые активы, переданные в доверительное управление</name>
+<lineCode>240</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Имущество, переданное в возмездное пользование (аренду)</name>
+<lineCode>250</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Имущество, переданное в безвозмездное пользование</name>
+<lineCode>260</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Материальные ценности, выданные в личное пользование работникам (сотрудникам)</name>
+<lineCode>270</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Расчеты по исполнению денежных обязательств через третьих лиц</name>
+<lineCode>280</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Акции по номинальной стоимости</name>
+<lineCode>290</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+<reportItem>
+<name>Финансовые активы в управляющих компаниях</name>
+<lineCode>320</lineCode>
+<targetFundsStartYear>0.00</targetFundsStartYear>
+<targetFundsEndYear>0.00</targetFundsEndYear>
+<stateTaskFundsStartYear>0.00</stateTaskFundsStartYear>
+<stateTaskFundsEndYear>0.00</stateTaskFundsEndYear>
+<revenueFundsStartYear>0.00</revenueFundsStartYear>
+<revenueFundsEndYear>0.00</revenueFundsEndYear>
+<totalStartYear>0.00</totalStartYear>
+<totalEndYear>0.00</totalEndYear>
+</reportItem>
+</reference>
+		</ns2:position>
+	</ns2:body>
+</ns2:annualBalanceF0503730_2015>
