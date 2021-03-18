@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns2:annualBalanceF0503721_2015 xmlns="http://bus.gov.ru/types/1" xmlns:ns2="http://bus.gov.ru/external/1" xmlns:ns3="http://bus.gov.ru/fk/1" xmlns:ns4="http://bus.gov.ru/nsi/1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header>
+		<id>72c3c244-e9d3-49b2-bbc8-bbc41bc44f3d</id>
+		<createDateTime>2021-03-18T12:31:20.540+03:00</createDateTime>
+	</header>
+	<ns2:body>
+		<ns2:position>
+			<positionId>600d280d-6847-4b14-94de-1a7b307cf3a4</positionId>
+			<changeDate>2021-03-18T12:31:20.540+03:00</changeDate>
+			<formationPeriod>2020</formationPeriod>
+			<generalData>
+				<date>2010-11-30+03:00</date>
+				<periodicity>annual</periodicity>
+				<okei>
+					<code>383</code>
+					<symbol>руб</symbol>
+				</okei>
+				<okpo>51517756</okpo>
+				<inn>3819009805</inn>
+				<section>864</section>
+				<oktmo>
+					<code>25736000</code>
+					<name>г.Усолье-Сибирское</name>
+				</oktmo>
+				<founderName>ОТДЕЛ КУЛЬТУРЫ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ</founderName>
+				<founderAuthority>
+					<regNum>253D0130</regNum>
+					<fullName>ОТДЕЛ КУЛЬТУРЫ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ</fullName>
+				</founderAuthority>
+				<founderAuthorityOkpo>04027906</founderAuthorityOkpo>
+				<separateStructuralUnitOkpo>04027906</separateStructuralUnitOkpo>
+			</generalData>
+			<income>
+				<reportItem>
+					<manually>false</manually>
+					<name>Доходы стр030  стр040  стр050  стр060  стр070  стр090  стр100  стр110</name>
+					<lineCode>010</lineCode>
+					<analyticCode>100</analyticCode>
+					<targetFunds>510386.77</targetFunds>
+					<stateTaskFunds>13334574.06</stateTaskFunds>
+					<revenueFunds>465057.00</revenueFunds>
+					<total>14310017.83</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Доходы от собственности</name>
+					<lineCode>030</lineCode>
+					<analyticCode>120</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>030</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Доходы от оказания платных услуг работ компенсаций затрат</name>
+					<lineCode>040</lineCode>
+					<analyticCode>130</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>13092149.53</stateTaskFunds>
+					<revenueFunds>457710.00</revenueFunds>
+					<total>13549859.53</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Доходы от оказания платных услуг работ</name>
+					<lineCode>040</lineCode>
+					<analyticCode>131</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>13092149.53</stateTaskFunds>
+					<revenueFunds>457710.00</revenueFunds>
+					<total>13549859.53</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Штрафы пени неустойки возмещения ущерба</name>
+					<lineCode>050</lineCode>
+					<analyticCode>140</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>050</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Безвозмездные поступления текущего характера</name>
+					<lineCode>060</lineCode>
+					<analyticCode>150</analyticCode>
+					<targetFunds>510386.77</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>5500.00</revenueFunds>
+					<total>515886.77</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Поступления текущего характера бюджетным и автономным учреждениям от сектора государственного управления</name>
+					<lineCode>060</lineCode>
+					<analyticCode>152</analyticCode>
+					<targetFunds>510386.77</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>510386.77</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Поступления текущего характера от иных резидентов за исключением сектора государственного управления и организаций государственного сектора</name>
+					<lineCode>060</lineCode>
+					<analyticCode>155</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>5500.00</revenueFunds>
+					<total>5500.00</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Безвозмездные поступления капитального характера</name>
+					<lineCode>070</lineCode>
+					<analyticCode>160</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>070</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Доходы от операций с активами</name>
+					<lineCode>090</lineCode>
+					<analyticCode>170</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>-193249.99</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>-193249.99</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Доходы от выбытия активов</name>
+					<lineCode>090</lineCode>
+					<analyticCode>172</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>-193249.99</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>-193249.99</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Прочие доходы</name>
+					<lineCode>100</lineCode>
+					<analyticCode>180</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>100</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Безвозмездные неденежные поступления в сектор государственного управления</name>
+					<lineCode>110</lineCode>
+					<analyticCode>190</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>435674.52</stateTaskFunds>
+					<revenueFunds>1847.00</revenueFunds>
+					<total>437521.52</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Безвозмездные неденежные поступления текущего характера от сектора государственного управления и организаций государственного сектора</name>
+					<lineCode>110</lineCode>
+					<analyticCode>191</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>435674.52</stateTaskFunds>
+					<revenueFunds>1847.00</revenueFunds>
+					<total>437521.52</total>
+				</reportItem>
+			</income>
+			<expense>
+				<reportItem>
+					<manually>false</manually>
+					<name>Расходы стр160  стр170  стр190  стр210  стр230  стр240  стр250  стр260  стр270</name>
+					<lineCode>150</lineCode>
+					<analyticCode>200</analyticCode>
+					<targetFunds>2333543.20</targetFunds>
+					<stateTaskFunds>14351816.28</stateTaskFunds>
+					<revenueFunds>456423.22</revenueFunds>
+					<total>17141782.70</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Оплата труда и начисления на выплаты по оплате труда</name>
+					<lineCode>160</lineCode>
+					<analyticCode>210</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>11669418.61</stateTaskFunds>
+					<revenueFunds>92641.92</revenueFunds>
+					<total>11762060.53</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Заработная плата</name>
+					<lineCode>160</lineCode>
+					<analyticCode>211</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>8960843.73</stateTaskFunds>
+					<revenueFunds>71153.55</revenueFunds>
+					<total>9031997.28</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Прочие несоциальные выплаты персоналу в денежной форме</name>
+					<lineCode>160</lineCode>
+					<analyticCode>212</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>2400.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>2400.00</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Начисления на выплаты по оплате труда</name>
+					<lineCode>160</lineCode>
+					<analyticCode>213</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>2706174.88</stateTaskFunds>
+					<revenueFunds>21488.37</revenueFunds>
+					<total>2727663.25</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Оплата работ услуг</name>
+					<lineCode>170</lineCode>
+					<analyticCode>220</analyticCode>
+					<targetFunds>2333543.20</targetFunds>
+					<stateTaskFunds>1143396.43</stateTaskFunds>
+					<revenueFunds>141421.97</revenueFunds>
+					<total>3618361.60</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Работы услуги по содержанию имущества</name>
+					<lineCode>170</lineCode>
+					<analyticCode>225</analyticCode>
+					<targetFunds>2333543.20</targetFunds>
+					<stateTaskFunds>249632.40</stateTaskFunds>
+					<revenueFunds>102782.00</revenueFunds>
+					<total>2685957.60</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Услуги связи</name>
+					<lineCode>170</lineCode>
+					<analyticCode>221</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>57856.22</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>57856.22</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Транспортные услуги</name>
+					<lineCode>170</lineCode>
+					<analyticCode>222</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>57300.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>57300.00</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Коммунальные услуги</name>
+					<lineCode>170</lineCode>
+					<analyticCode>223</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>533728.31</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>533728.31</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Прочие работы услуги</name>
+					<lineCode>170</lineCode>
+					<analyticCode>226</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>244879.50</stateTaskFunds>
+					<revenueFunds>38639.97</revenueFunds>
+					<total>283519.47</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Обслуживание долговых обязательств</name>
+					<lineCode>190</lineCode>
+					<analyticCode>230</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>190</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Безвозмездные перечисления текущего характера организациям</name>
+					<lineCode>210</lineCode>
+					<analyticCode>240</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>210</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Безвозмездные перечисления бюджетам</name>
+					<lineCode>230</lineCode>
+					<analyticCode>250</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>230</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Социальное обеспечение</name>
+					<lineCode>240</lineCode>
+					<analyticCode>260</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>36210.72</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>36210.72</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Социальные пособия и компенсации персоналу в денежной форме</name>
+					<lineCode>240</lineCode>
+					<analyticCode>266</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>36210.72</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>36210.72</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Расходы по операциям с активами</name>
+					<lineCode>250</lineCode>
+					<analyticCode>270</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>1429963.52</stateTaskFunds>
+					<revenueFunds>222359.33</revenueFunds>
+					<total>1652322.85</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Амортизация</name>
+					<lineCode>250</lineCode>
+					<analyticCode>271</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>981331.00</stateTaskFunds>
+					<revenueFunds>208370.00</revenueFunds>
+					<total>1189701.00</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Расходование материальных запасов</name>
+					<lineCode>250</lineCode>
+					<analyticCode>272</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>448632.52</stateTaskFunds>
+					<revenueFunds>13989.33</revenueFunds>
+					<total>462621.85</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Безвозмездные перечисления капитального характера организациям</name>
+					<lineCode>260</lineCode>
+					<analyticCode>280</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> </name>
+					<lineCode>260</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Прочие расходы</name>
+					<lineCode>270</lineCode>
+					<analyticCode>290</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>72827.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>72827.00</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> Налоги пошлины и сборы</name>
+					<lineCode>270</lineCode>
+					<analyticCode>291</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>72827.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>72827.00</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>ЧИСТЫЙ ОПЕРАЦИОННЫЙ РЕЗУЛЬТАТ стр301 стр302стр310  стр410</name>
+					<lineCode>300</lineCode>
+					<targetFunds>-1823156.43</targetFunds>
+					<stateTaskFunds>-1017242.22</stateTaskFunds>
+					<revenueFunds>8633.78</revenueFunds>
+					<total>-2831764.87</total>
+					<reportSubItem>
+						<manually>false</manually>
+						<name>Операционный результат до налогообложения стр 010  стр150</name>
+						<lineCode>301</lineCode>
+						<targetFunds>-1823156.43</targetFunds>
+						<stateTaskFunds>-1017242.22</stateTaskFunds>
+						<revenueFunds>8633.78</revenueFunds>
+						<total>-2831764.87</total>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name>Налог на прибыль</name>
+						<lineCode>302</lineCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+			</expense>
+			<nonFinancialAssets>
+				<reportItem>
+					<manually>false</manually>
+					<name>Операции с нефинансовыми активами стр320  стр330  стр350  стр360  стр370  стр380  стр390 стр400</name>
+					<lineCode>310</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>-295826.22</stateTaskFunds>
+					<revenueFunds>-7884.33</revenueFunds>
+					<total>-303710.55</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление основных средств</name>
+					<lineCode>320</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>-303672.22</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>-303672.22</total>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости основных средств</name>
+						<lineCode>321</lineCode>
+						<analyticCode>310</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>680984.77</stateTaskFunds>
+						<revenueFunds>208370.00</revenueFunds>
+						<total>889354.77</total>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости основных средств</name>
+						<lineCode>322</lineCode>
+						<analyticCode>410</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>984656.99</stateTaskFunds>
+						<revenueFunds>208370.00</revenueFunds>
+						<total>1193026.99</total>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление нематериальных активов</name>
+					<lineCode>330</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости нематериальных активов</name>
+						<lineCode>331</lineCode>
+						<analyticCode>320</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости нематериальных активов</name>
+						<lineCode>332</lineCode>
+						<analyticCode>420</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление непроизведенных активов</name>
+					<lineCode>350</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости непроизведенных активов</name>
+						<lineCode>351</lineCode>
+						<analyticCode>330</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости непроизведенных активов</name>
+						<lineCode>352</lineCode>
+						<analyticCode>430</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление материальных запасов</name>
+					<lineCode>360</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>7846.00</stateTaskFunds>
+					<revenueFunds>-7884.33</revenueFunds>
+					<total>-38.33</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> увеличение стоимости материальных запасов</name>
+					<lineCode>361</lineCode>
+					<analyticCode>340</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>456478.52</stateTaskFunds>
+					<revenueFunds>6105.00</revenueFunds>
+					<total>462583.52</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name> уменьшение стоимости материальных запасов</name>
+					<lineCode>362</lineCode>
+					<analyticCode>440</analyticCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>448632.52</stateTaskFunds>
+					<revenueFunds>13989.33</revenueFunds>
+					<total>462621.85</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name></name>
+					<lineCode>362</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление прав пользования</name>
+					<lineCode>370</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости прав пользования</name>
+						<lineCode>371</lineCode>
+						<analyticCode>350</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости прав пользования</name>
+						<lineCode>372</lineCode>
+						<analyticCode>450</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое изменение затрат на изготовление готовой продукции работ услуг</name>
+					<lineCode>390</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> в то числе увеличение затрат</name>
+						<lineCode>391</lineCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>13559441.93</stateTaskFunds>
+						<revenueFunds>315379.91</revenueFunds>
+						<total>13874821.84</total>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение затрат</name>
+						<lineCode>392</lineCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>13559441.93</stateTaskFunds>
+						<revenueFunds>315379.91</revenueFunds>
+						<total>13874821.84</total>
+					</reportSubItem>
+				</reportItem>
+			</nonFinancialAssets>
+			<financialAssets>
+				<reportItem>
+					<manually>false</manually>
+					<name> в то числе увеличение затрат</name>
+					<lineCode>391</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>13559441.93</stateTaskFunds>
+					<revenueFunds>315379.91</revenueFunds>
+					<total>13874821.84</total>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение затрат</name>
+						<lineCode>392</lineCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>13559441.93</stateTaskFunds>
+						<revenueFunds>315379.91</revenueFunds>
+						<total>13874821.84</total>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое изменение расходов будущих периодов</name>
+					<lineCode>400</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Операции с финансовыми активами и обязательствами стр420  стр510</name>
+					<lineCode>410</lineCode>
+					<targetFunds>-1823156.43</targetFunds>
+					<stateTaskFunds>-721416.00</stateTaskFunds>
+					<revenueFunds>16518.11</revenueFunds>
+					<total>-2528054.32</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Операции с финансовыми активами стр430  стр440  стр450  стр460  стр470  стр480</name>
+					<lineCode>420</lineCode>
+					<targetFunds>-2333545.20</targetFunds>
+					<stateTaskFunds>-171043.41</stateTaskFunds>
+					<revenueFunds>16518.11</revenueFunds>
+					<total>-2488070.50</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление денежных средств и их эквивалентов</name>
+					<lineCode>430</lineCode>
+					<targetFunds>-2333545.20</targetFunds>
+					<stateTaskFunds>18880.59</stateTaskFunds>
+					<revenueFunds>30518.11</revenueFunds>
+					<total>-2284146.50</total>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> поступление денежных средств и их эквивалентов</name>
+						<lineCode>431</lineCode>
+						<analyticCode>510</analyticCode>
+						<targetFunds>510388.77</targetFunds>
+						<stateTaskFunds>13127146.04</stateTaskFunds>
+						<revenueFunds>463210.00</revenueFunds>
+						<total>14100744.81</total>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> выбытие денежных средств и их эквивалентов</name>
+						<lineCode>432</lineCode>
+						<analyticCode>610</analyticCode>
+						<targetFunds>2843933.97</targetFunds>
+						<stateTaskFunds>13108265.45</stateTaskFunds>
+						<revenueFunds>432691.89</revenueFunds>
+						<total>16384891.31</total>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление ценных бумаг кроме акций</name>
+					<lineCode>440</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости ценных бумаг кроме акций и иных форм участия в капитале</name>
+						<lineCode>441</lineCode>
+						<analyticCode>520</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости ценных бумаг кроме акций и иных форм участия в капитале </name>
+						<lineCode>442</lineCode>
+						<analyticCode>620</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление акций и иных финансовых инструментов</name>
+					<lineCode>450</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости акций и иных финансовых инструментов</name>
+						<lineCode>451</lineCode>
+						<analyticCode>530</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости акций и иных финансовых инструментов</name>
+						<lineCode>452</lineCode>
+						<analyticCode>630</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое предоставление займов ссуд</name>
+					<lineCode>460</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение задолженности по предоставленным займам ссудам</name>
+						<lineCode>461</lineCode>
+						<analyticCode>540</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение задолженности по предоставленным займам ссудам</name>
+						<lineCode>462</lineCode>
+						<analyticCode>640</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое поступление иных финансовых активов</name>
+					<lineCode>470</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение стоимости иных финансовых активов</name>
+						<lineCode>471</lineCode>
+						<analyticCode>550</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение стоимости иных финансовых активов</name>
+						<lineCode>472</lineCode>
+						<analyticCode>650</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое увеличение дебиторской задолженности </name>
+					<lineCode>480</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>-189924.00</stateTaskFunds>
+					<revenueFunds>-14000.00</revenueFunds>
+					<total>-203924.00</total>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение дебиторской задолженности</name>
+						<lineCode>481</lineCode>
+						<analyticCode>560</analyticCode>
+						<targetFunds>510388.77</targetFunds>
+						<stateTaskFunds>13275300.87</stateTaskFunds>
+						<revenueFunds>482570.10</revenueFunds>
+						<total>14268259.74</total>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение дебиторской задолженности</name>
+						<lineCode>482</lineCode>
+						<analyticCode>660</analyticCode>
+						<targetFunds>510388.77</targetFunds>
+						<stateTaskFunds>13465224.87</stateTaskFunds>
+						<revenueFunds>496570.10</revenueFunds>
+						<total>14472183.74</total>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Операции с обязательствами стр520  стр530  стр540  стр550  стр 560</name>
+					<lineCode>510</lineCode>
+					<targetFunds>-510388.77</targetFunds>
+					<stateTaskFunds>550372.59</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>39983.82</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое увеличение задолженности по внутренним привлеченным заимстованиям</name>
+					<lineCode>520</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение задолженности по внутренним привлеченным заимстованиям</name>
+						<lineCode>521</lineCode>
+						<analyticCode>710</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение задолженности по внутренним привлеченным заимстованиям</name>
+						<lineCode>522</lineCode>
+						<analyticCode>810</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое увеличение задолженности по внешним привлеченным заимстованиям</name>
+					<lineCode>530</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>0.00</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение задолженности по внешним привлеченным заимстованиям</name>
+						<lineCode>531</lineCode>
+						<analyticCode>720</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение задолженности по внешним привлеченным заимстованиям</name>
+						<lineCode>532</lineCode>
+						<analyticCode>820</analyticCode>
+						<targetFunds>0.00</targetFunds>
+						<stateTaskFunds>0.00</stateTaskFunds>
+						<revenueFunds>0.00</revenueFunds>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое увеличение прочей кредиторской задолженности</name>
+					<lineCode>540</lineCode>
+					<targetFunds>-510388.77</targetFunds>
+					<stateTaskFunds>515614.28</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>5225.51</total>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> увеличение прочей кредиторской задолженности</name>
+						<lineCode>541</lineCode>
+						<analyticCode>730</analyticCode>
+						<targetFunds>2843933.97</targetFunds>
+						<stateTaskFunds>15000181.37</stateTaskFunds>
+						<revenueFunds>422581.79</revenueFunds>
+						<total>18266697.13</total>
+					</reportSubItem>
+					<reportSubItem>
+						<manually>false</manually>
+						<name> уменьшение прочей кредиторской задолженности</name>
+						<lineCode>542</lineCode>
+						<analyticCode>830</analyticCode>
+						<targetFunds>3354322.74</targetFunds>
+						<stateTaskFunds>14484567.09</stateTaskFunds>
+						<revenueFunds>422581.79</revenueFunds>
+						<total>18261471.62</total>
+					</reportSubItem>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое изменение доходов будущих периодов</name>
+					<lineCode>550</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>18880.59</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>18880.59</total>
+				</reportItem>
+			</financialAssets>
+		</ns2:position>
+	</ns2:body>
+</ns2:annualBalanceF0503721_2015>

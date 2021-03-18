@@ -1,0 +1,1 @@
+D:\1\libxml2-2.7.8.win32\bin\xmllint.exe --schema "xsd/External.xsd" annualAccountancy_all_3819009805_721.xml

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Выгрузка на сайт ГМУ форм 0503730
+# Выгрузка на сайт ГМУ форм 0503721
 import os
 import sys
 import re
@@ -12,6 +12,61 @@ from datetime import datetime
 from importlib import reload
 
 # Словарь регистрационных номеров учреждений, связано с тем что Смета не заполняет Рег номер.
+ORG_NAME_INN_Dict={
+'МБДОУ "Детский сад № 29"':'3819009393',
+'МБУ "Спортивный центр"':'3819009805',
+'МБОУ "СОШ № 12"':'3819009121',
+'МБУДО "ДЮСШ №1"':'3819009770',
+'МБУ ДО "Детская художественная школа"':'3819008689',
+'МБУДО "СЮН"':'3819009516',
+'МБДОУ "Детский сад № 6"':'3819009040',
+'МБДОУ "Детский сад № 32"':'3819009280',
+'МБДОУ "Детский сад № 2"':'3851007707',
+'МБДОУ "Детский сад № 17"':'3819009241',
+'МБОУ "Гимназия № 1"':'3819009080',
+'МБОУ "Лицей №1"':'3819005381',
+'МБДОУ "Д/С № 37"':'3819009403',
+'МБОУ "Средняя общеобразовательная школа № 2"':'3819009428',
+'МБКДУ "Дворец культуры" ':'3819003472',
+'МБОУ СОШ № 3':'3819009643',
+'МБУК "ДК Мир"':'3819012484',
+'МБОУ "СОШ № 6"':'3819009227',
+'МБОУ "ООШ № 8 имени  А.А. Разгуляева"':'3819009185',
+'МБУДО "ДДТ"':'3819009330',
+'МБДОУ "Детский сад № 3"':'3819009202',
+'МБДОУ "Детский сад № 18"':'3819009266',
+'МБДОУ "Детский сад № 44"':'3819009354',
+'МБУК "УГ ЦБС"':'3819012491',
+'МБДОУ "Детский сад № 35"':'3819009315',
+'МБОУ "СОШ № 17" ':'3819009153',
+'МБДОУ "Детский сад № 8"':'3819014788',
+'МБОУ "СОШ № 15"':'3819009629',
+'МБДОУ "Детский сад № 5"':'3819009234',
+'МБДОУ "Детский сад № 25"':'3819009555',
+'МБДОУ "Детский сад № 1"':'3819009604',
+'МБДОУ "Детский сад № 7"':'3819009259',
+'МБДОУ "ДС № 40"':'3819009450',
+'МБОУ "СОШ № 10"':'3819009308',
+'МБДОУ "ДС № 34"':'3851007457',
+'МБДОУ "ДС № 42"':'3819009273',
+'МБДОУ "Д/с № 26"':'3819009322',
+'МБОУ "СОШ № 13"':'3819009298',
+'МБДОУ "Детский сад №33"':'3819009523',
+'МБДОУ "Детский сад № 10"':'3819005744',
+'МБУК "Усольский историко-краеведческий музей"':'3819012501',
+'МБУ "СК "Химик"':'3819000337',
+'МБДОУ "Детский сад № 21"':'3819020799',
+'МБДОУ "Детский сад № 31"':'3819009562',
+'МБДОУ "Детский сад № 38"':'3819009474',
+'МБУ ДО "ДМШ"':'3819008671',
+'МБОУ "СОШ № 5"':'3819005470',
+'МБОУ "Гимназия № 9"':'3819009139',
+'МБДОУ "Детский сад № 22"':'3819009107',
+'МБОУ "СОШ № 16"':'3819005790',
+'МБДОУ "Детский сад № 43"':'3819009210',
+'МБДОУ "Детский сад № 39"':'3819009467',
+'МБДОУ "детский сад № 28"':'3851025463'
+}
 regNum_Dict={
 '3819009241':'25301853',
 '3819020799':'25301856',
@@ -85,12 +140,20 @@ reload(sys)
 local_tz = pytz.timezone('Europe/Moscow')
 
 # Полезные функции
+
 def utc_to_local(utc_dt):
     local_dt = utc_dt.replace(tzinfo=pytz.utc).astimezone(local_tz)
     return local_tz.normalize(local_dt)
 
+def delapostrof(string):
+    string=string.replace(" ","")
+    string=string.replace('"', "") 
+    return string
+	
+	
 def insert_str(string, str_to_insert, index):
     return string[:index] + str_to_insert + string[index:]
+	
 # Добавить ребенка в XML
 def AddKinder(name, value):
 	Temp = doc.createElement(name)
@@ -104,13 +167,6 @@ def ParseFloat(str):
    str='0.00'
   return str
 
-def getRazedlreference():
-  result=doc.createElement('reference')
-  """"  
-  reportItem=doc.createElement("<reportItem> <name>Имущество, полученное в пользование</name> <lineCode>010</lineCode> <targetFundsStartYear>0.00</targetFundsStartYear> <targetFundsEndYear>0.00</targetFundsEndYear> <stateTaskFundsStartYear>0.00</stateTaskFundsStartYear> <stateTaskFundsEndYear>0.00</stateTaskFundsEndYear><revenueFundsStartYear>0.00</revenueFundsStartYear><revenueFundsEndYear>0.00</revenueFundsEndYear><totalStartYear>0.00</totalStartYear><totalEndYear>0.00</totalEndYear></reportItem>")
-  result.appendChild(reportItem)
-"""      
-  return result  
 
 def getRazedlreferenceFromFile(xml_str):
   pathtofile='C:\\gmu\\'
@@ -121,62 +177,118 @@ def getRazedlreferenceFromFile(xml_str):
     xml_str=str.encode()
     return xml_str
   
-def getRazedl(start, end, name):
+def getRazedl(start, name):
   result=doc.createElement(name)
   i = start
-  while i < end:
+  lineCode=''
+  while True:
+   if (name == 'financialAssets' and lineCode == '560'): break
+   if str(worksheet.cell(i, 0).value)[:8] == 'Директор' : break
+   
    strName=worksheet.cell(i, 0).value
    reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')  
    strName=reg.sub('', strName)
+   strName=strName.replace ("из них:"," ")
+   strName=strName.replace ("из них"," ")
+   strName=strName.replace ("в том числе:"," ")   
    strName=strName.replace ("     "," ")
    strName=strName.replace ("    "," ")
    strName=strName.replace ("   "," ")  
    lineCode=worksheet.cell(i, 12).value
-# Целевые   
-   targetFundsStartYear=ParseFloat(worksheet.cell(i, 16).value)
-   targetFundsEndYear=ParseFloat(worksheet.cell(i, 34).value)
-#  Государственное задание
-   stateTaskFundsStartYear=ParseFloat(worksheet.cell(i, 19).value)
-   stateTaskFundsEndYear=ParseFloat(worksheet.cell(i, 37).value)
-#  Приносящая доход
-   revenueFundsStartYear=ParseFloat(worksheet.cell(i, 25).value)
-   revenueFundsEndYear=ParseFloat(worksheet.cell(i, 43).value)
-#  Итого   
-   totalStartYear=ParseFloat(worksheet.cell(i, 29).value)
-   totalEndYear=ParseFloat(worksheet.cell(i, 46).value)
-   if (lineCode=='010'):
-    strName='Основные средства (балансовая стоимость, 010100000)*'
-   if (lineCode=='190') :
-    strName='Итого по разделу I (стр.030 + стр.060 + стр.070 + стр.080 + стр.100 + стр.120 + стр.130 + стр.150 + стр.160)'	
-   if (lineCode=='200'):
-    strName='Денежные средства учреждения (020100000), всего'
-   if (lineCode=='340') :
-    strName='Итого по разделу II (стр.200 + стр.240 + стр.250 + стр.260 + стр.270 + стр.280 + стр.290)'	
-   if (lineCode=='400') :
-    strName='Расчеты с кредиторами по долговым обязательствам (030100000), всего'	
-   if (lineCode=='550') :
-    strName='Итого по разделу III (стр.400 + стр.410 + стр.420 + стр.430 + стр.470 + стр.480 + стр.510 + стр.520)'	
-   if (lineCode=='570') :
-    strName='Финансовый результат экономического субъекта'	
-   if (strName!='') and (lineCode!='') and (lineCode!='х') and (len (lineCode)==3)	:
+   print(lineCode)
+   if lineCode == '' or lineCode == 'Код строки' or lineCode == '2': 
+    i += 1 
+    continue
+   if (name == 'income' and int(lineCode) > 110): break
+   if (name == 'expense' and int(lineCode) > 302): break
+   if (name == 'nonFinancialAssets' and int(lineCode) > 390): break
+   if (name == 'financialAssets' and int(lineCode) > 560): break
+   j = i
+   if (name=='income' and int(lineCode)<=110)or(name=='expense' and int(lineCode)>110 and int(lineCode)<=302)or(name=='nonFinancialAssets' and int(lineCode)>302 and int(lineCode)<=390)or(name=='financialAssets' and int(lineCode)>390 and int(lineCode)<=560):
     reportItem=doc.createElement('reportItem')
-    reportItem.appendChild(AddKinder('name',strName))
-    reportItem.appendChild(AddKinder('lineCode',lineCode))
-    reportItem.appendChild(AddKinder('targetFundsStartYear',targetFundsStartYear))
-    reportItem.appendChild(AddKinder('targetFundsEndYear',targetFundsEndYear))   
-    reportItem.appendChild(AddKinder('stateTaskFundsStartYear',stateTaskFundsStartYear))      
-    reportItem.appendChild(AddKinder('stateTaskFundsEndYear',stateTaskFundsEndYear))      
-    reportItem.appendChild(AddKinder('revenueFundsStartYear',revenueFundsStartYear))      
-    reportItem.appendChild(AddKinder('revenueFundsEndYear',revenueFundsEndYear))      
-    reportItem.appendChild(AddKinder('totalStartYear',totalStartYear))
-    reportItem.appendChild(AddKinder('totalEndYear',totalEndYear))
+    reportItem.appendChild(AddKinder('manually', 'false'))
+    reportItem.appendChild(AddKinder('name', strName))
+    if int(lineCode)< 100:
+      reportItem.appendChild(AddKinder('lineCode', '0'+ str(int(lineCode))))
+    else:
+      reportItem.appendChild(AddKinder('lineCode', str(int(lineCode))))
+    analyticCode = str(ParseFloat(worksheet.cell(i, 13).value))
+    if len(analyticCode) == 3:
+        if analyticCode[-1] == 'Х':
+            print(analyticCode+'  ' + 'ggggggg')
+            analyticCode = analyticCode[:2] + '0'
+            reportItem.appendChild(AddKinder('analyticCode', analyticCode))
+        else:
+            reportItem.appendChild(AddKinder('analyticCode', analyticCode))
+    reportItem.appendChild(AddKinder('targetFunds',
+        ParseFloat(worksheet.cell(i, 18).value)))   
+    reportItem.appendChild(AddKinder('stateTaskFunds',
+        ParseFloat(worksheet.cell(i, 20).value)))      
+    reportItem.appendChild(AddKinder('revenueFunds',
+        ParseFloat(worksheet.cell(i, 24).value)))
+    if (str(ParseFloat(worksheet.cell(i, 30).value)) != '0.00'):
+        reportItem.appendChild(AddKinder('total',
+            ParseFloat(worksheet.cell(i, 30).value)))
+    j = i + 1
+    lineCode=worksheet.cell(j, 12).value
+    if lineCode == '' or lineCode == 'Код строки' or lineCode == '2':
+        result.appendChild(reportItem)
+        i += 1 
+        continue
+    while str(int(lineCode))[-1] != '0':
+        strName=worksheet.cell(j, 0).value
+        reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')  
+        strName=reg.sub('', strName)
+        strName=strName.replace ("из них:"," ")
+        strName=strName.replace ("из них"," ")
+        strName=strName.replace ("в том числе:"," ")
+        strName=strName.replace ("в том числе"," ")
+        strName=strName.replace ("     "," ")
+        strName=strName.replace ("    "," ")
+        strName=strName.replace ("   "," ")  
+        reportSubItem=doc.createElement('reportSubItem')
+        reportSubItem.appendChild(AddKinder('manually', 'false'))
+        reportSubItem.appendChild(AddKinder('name', strName))
+        if int(lineCode)< 100:
+          reportSubItem.appendChild(AddKinder('lineCode', '0'+ str(int(lineCode))))
+        else:
+          reportSubItem.appendChild(AddKinder('lineCode', str(int(lineCode))))
+        analyticCode = str(ParseFloat(worksheet.cell(j, 13).value))
+        if len(analyticCode) == 3:
+            if analyticCode[-1] == 'Х':
+                print(analyticCode + 'fffffffffff')
+                analyticCode = analyticCode[:2] + '0'
+                reportSubItem.appendChild(AddKinder('analyticCode', analyticCode))
+            else:
+                reportSubItem.appendChild(AddKinder('analyticCode', analyticCode))
+        reportSubItem.appendChild(AddKinder('targetFunds',
+            ParseFloat(worksheet.cell(j, 18).value)))   
+        reportSubItem.appendChild(AddKinder('stateTaskFunds',
+            ParseFloat(worksheet.cell(j, 20).value)))      
+        reportSubItem.appendChild(AddKinder('revenueFunds',
+            ParseFloat(worksheet.cell(j, 24).value)))
+        if (str(ParseFloat(worksheet.cell(j, 30).value)) != '0.00'):
+            reportSubItem.appendChild(AddKinder('total',
+                ParseFloat(worksheet.cell(j, 30).value)))
+        reportItem.appendChild(reportSubItem)
+        j += 1
+        lineCode=worksheet.cell(j, 12).value
+        while lineCode == '' or lineCode == 'Код строки' or lineCode == '2':
+            j += 1 
+            lineCode=worksheet.cell(j, 12).value
     result.appendChild(reportItem)
-   i = i + 1  
+    if i == 1000: break
+   
+   if i < j:
+      i = j
+   else:
+       i += 1
+    
   return result
 	
 # Открываем рабочий файл
-print (sys.argv[1])
-pathtofile = os.path.dirname(sys.argv[1])
+print (sys.argv[0])
+pathtofile = os.path.dirname(sys.argv[0])
 if pathtofile!='' : pathtofile=pathtofile+'\\'
 #print (pathtofile)
 # Пауза
@@ -187,7 +299,7 @@ worksheet = workbook.sheet_by_index(0)
 
 # Создаём коренной элемент
 doc = minidom.Document()
-root = doc.createElement('ns2:annualBalanceF0503730_2015')
+root = doc.createElement('ns2:annualBalanceF0503721_2015')
 root.setAttributeNS("xmlns", "xmlns", "http://bus.gov.ru/types/1" )
 root.setAttributeNS("xmlns", "xmlns:ns2", 'http://bus.gov.ru/external/1')
 root.setAttributeNS("xmlns", "xmlns:ns3", 'http://bus.gov.ru/fk/1')
@@ -235,25 +347,28 @@ ns2_position.appendChild(changeDate)
 #ns2_position.appendChild(placer)
 
 # Нужно отнимать 1 от колонки и от строки в реальности от Экселя
-inn=str(worksheet.cell(7, 44).value)
-
-oktmostr=str(int(worksheet.cell(8, 44).value))
+#inn=(str(worksheet.cell(4, 6).value))
+#inn=(str(worksheet.cell(4, 6).value))
+oktmostr=str(int(worksheet.cell(5, 30).value))
 
 # kpp=str(worksheet.cell(20, 64).value)
 kpp=''
-fullNameOrg=str(worksheet.cell(5, 6).value)
+fullNameOrg=str(worksheet.cell(4, 6).value)
+inn=ORG_NAME_INN_Dict[fullNameOrg]
 fullNameOrg=fullNameOrg.replace ("\"","'")  
-glavaCode=str(int(worksheet.cell(10, 44).value))
-general_date=str(worksheet.cell(4, 44).value)
+glavaCode=str(worksheet.cell(8, 30).value)
+general_date=str(worksheet.cell(3, 30).value)
 general_date='2021-01-01'
+
+
 
 glava_regnum=''
 glava_inn=''
 glava_kpp=''
 founderAuthorityOkpo=''
 separateStructuralUnitOkpo=''
-print (glavaCode)
-if glavaCode=='905' :
+
+if glavaCode[:17]=='отдел образования' :
    glava_regnum='25304951'
    glava_inn='3819005092'
    glava_kpp='385145003'
@@ -261,7 +376,7 @@ if glavaCode=='905' :
    founderAuthorityOkpo='68596576'
    founderNamefullName='ОТДЕЛ ОБРАЗОВАНИЯ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ'
 
-if glavaCode=='906' :
+if glavaCode[:17]!='отдел образования' :
    glava_regnum='253D0130'
    glava_inn='3819005092'
    glava_kpp='385145002'
@@ -270,17 +385,9 @@ if glavaCode=='906' :
    founderNamefullName='ОТДЕЛ КУЛЬТУРЫ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ'
 
 
-if glavaCode=='910' :
-   glava_regnum='253D0130'
-   glava_inn='3819005092'
-   glava_kpp='385145002'
-   general_date='2010-11-30+03:00'
-   founderAuthorityOkpo='04027906'
-   founderNamefullName='ОТДЕЛ СПОРТА И МОЛОДЕЖНОЙ ПОЛИТИКИ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ'
-
    
-regNum=regNum_Dict[inn]
-print (regNum)
+#regNum=regNum_Dict[inn]
+#print (regNum)
 
 # placer, initiator  убрал в 2021 году
 #placer.appendChild(AddKinder('regNum',regNum))
@@ -344,26 +451,24 @@ generalData.appendChild(AddKinder('founderAuthorityOkpo', founderAuthorityOkpo))
 generalData.appendChild(AddKinder('separateStructuralUnitOkpo', founderAuthorityOkpo))
 ns2_position.appendChild(generalData)
 
-# Нефинансовые активы
-nonFinancialAssets=getRazedl(21,45,'nonFinancialAssets')
+# Доходы
+income = getRazedl(19, 'income')
 # Финансовые активы  
-financialAssets=getRazedl(46,72,'financialAssets')
+expense = getRazedl(19, 'expense')
 # Обязательства, Пассив
-commitments=getRazedl(76,93,'commitments')
+nonFinancialAssets = getRazedl(19, 'nonFinancialAssets')
 # Финансовые результат
-financialResult=getRazedl(94,97,'financialResult')
+financialAssets = getRazedl(19, 'financialAssets')
 # 
-reference=getRazedlreference()
 
+ns2_position.appendChild(income)
+ns2_position.appendChild(expense)
 ns2_position.appendChild(nonFinancialAssets)
 ns2_position.appendChild(financialAssets)
-ns2_position.appendChild(commitments)
-ns2_position.appendChild(financialResult)
-ns2_position.appendChild(reference)
 
 xml_str = doc.toprettyxml(encoding="utf-8")
-xml_str=getRazedlreferenceFromFile(xml_str)
-filenameoutput='annualAccountancy_all_'+inn+'.xml'
+# xml_str=getRazedlreferenceFromFile(xml_str)
+filenameoutput='annualAccountancy_all_'+inn+'_721'+'.xml'
 
 with open(pathtofile+filenameoutput, "wb") as f:
     f.write(xml_str)
