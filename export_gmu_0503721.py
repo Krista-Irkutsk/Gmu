@@ -181,11 +181,15 @@ def getRazedl(start, name):
   result=doc.createElement(name)
   i = start
   lineCode=''
+  ex = 0
   while True:
-   if (name == 'financialAssets' and lineCode == '560'): break
+   if ex == 1: break
+   if (name == 'financialAssets' and lineCode == '560'): ex = 1
    if str(worksheet.cell(i, 0).value)[:8] == 'Директор' : break
-   
    strName=worksheet.cell(i, 0).value
+   if strName == '':
+    i += 1 
+    continue
    reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')  
    strName=reg.sub('', strName)
    strName=strName.replace ("из них:"," ")
@@ -237,6 +241,9 @@ def getRazedl(start, name):
         continue
     while str(int(lineCode))[-1] != '0':
         strName=worksheet.cell(j, 0).value
+        if strName == '':
+            i += 1 
+            continue
         reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')  
         strName=reg.sub('', strName)
         strName=strName.replace ("из них:"," ")
@@ -355,6 +362,7 @@ oktmostr=str(int(worksheet.cell(5, 30).value))
 kpp=''
 fullNameOrg=str(worksheet.cell(4, 6).value)
 inn=ORG_NAME_INN_Dict[fullNameOrg]
+oktmostr=regNum_Dict[inn]
 fullNameOrg=fullNameOrg.replace ("\"","'")  
 glavaCode=str(worksheet.cell(8, 30).value)
 general_date=str(worksheet.cell(3, 30).value)

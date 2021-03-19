@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ns2:annualBalanceF0503721_2015 xmlns="http://bus.gov.ru/types/1" xmlns:ns2="http://bus.gov.ru/external/1" xmlns:ns3="http://bus.gov.ru/fk/1" xmlns:ns4="http://bus.gov.ru/nsi/1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<header>
-		<id>72c3c244-e9d3-49b2-bbc8-bbc41bc44f3d</id>
-		<createDateTime>2021-03-18T12:31:20.540+03:00</createDateTime>
+		<id>51b33236-78db-434b-b9d2-740b996a5f57</id>
+		<createDateTime>2021-03-19T04:32:16.838+03:00</createDateTime>
 	</header>
 	<ns2:body>
 		<ns2:position>
-			<positionId>600d280d-6847-4b14-94de-1a7b307cf3a4</positionId>
-			<changeDate>2021-03-18T12:31:20.540+03:00</changeDate>
+			<positionId>04e1264c-21e4-4ee4-8793-ba6046af7c99</positionId>
+			<changeDate>2021-03-19T04:32:16.838+03:00</changeDate>
 			<formationPeriod>2020</formationPeriod>
 			<generalData>
 				<date>2010-11-30+03:00</date>
@@ -20,7 +20,7 @@
 				<inn>3819009805</inn>
 				<section>864</section>
 				<oktmo>
-					<code>25736000</code>
+					<code>25302139</code>
 					<name>г.Усолье-Сибирское</name>
 				</oktmo>
 				<founderName>ОТДЕЛ КУЛЬТУРЫ УПРАВЛЕНИЯ ПО СОЦИАЛЬНО-КУЛЬТУРНЫМ ВОПРОСАМ АДМИНИСТРАЦИИ ГОРОДА УСОЛЬЕ-СИБИРСКОЕ</founderName>
@@ -599,14 +599,6 @@
 				</reportItem>
 				<reportItem>
 					<manually>false</manually>
-					<name></name>
-					<lineCode>362</lineCode>
-					<targetFunds>0.00</targetFunds>
-					<stateTaskFunds>0.00</stateTaskFunds>
-					<revenueFunds>0.00</revenueFunds>
-				</reportItem>
-				<reportItem>
-					<manually>false</manually>
 					<name>Чистое поступление прав пользования</name>
 					<lineCode>370</lineCode>
 					<targetFunds>0.00</targetFunds>
@@ -963,6 +955,15 @@
 					<stateTaskFunds>18880.59</stateTaskFunds>
 					<revenueFunds>0.00</revenueFunds>
 					<total>18880.59</total>
+				</reportItem>
+				<reportItem>
+					<manually>false</manually>
+					<name>Чистое изменение резервов предстоящих расходов </name>
+					<lineCode>560</lineCode>
+					<targetFunds>0.00</targetFunds>
+					<stateTaskFunds>15877.72</stateTaskFunds>
+					<revenueFunds>0.00</revenueFunds>
+					<total>15877.72</total>
 				</reportItem>
 			</financialAssets>
 		</ns2:position>
