@@ -187,17 +187,17 @@ def getRazedl(start, name):
    if (name == 'financialAssets' and lineCode == '560'): ex = 1
    if str(worksheet.cell(i, 0).value)[:8] == 'Директор' : break
    strName=worksheet.cell(i, 0).value
-   if strName == '':
+   if strName == '     ':
     i += 1 
     continue
-   reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')  
+   reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')
    strName=reg.sub('', strName)
    strName=strName.replace ("из них:"," ")
    strName=strName.replace ("из них"," ")
-   strName=strName.replace ("в том числе:"," ")   
+   strName=strName.replace ("в том числе:"," ")
    strName=strName.replace ("     "," ")
    strName=strName.replace ("    "," ")
-   strName=strName.replace ("   "," ")  
+   strName=strName.replace ("   "," ")
    lineCode=worksheet.cell(i, 12).value
    print(lineCode)
    if lineCode == '' or lineCode == 'Код строки' or lineCode == '2': 
@@ -234,15 +234,25 @@ def getRazedl(start, name):
         reportItem.appendChild(AddKinder('total',
             ParseFloat(worksheet.cell(i, 30).value)))
     j = i + 1
-    lineCode=worksheet.cell(j, 12).value
-    if lineCode == '' or lineCode == 'Код строки' or lineCode == '2':
-        result.appendChild(reportItem)
-        i += 1 
-        continue
-    while str(int(lineCode))[-1] != '0':
-        strName=worksheet.cell(j, 0).value
-        if strName == '':
+    lineCode_1=worksheet.cell(j, 12).value
+    if lineCode_1 == '' or lineCode_1 == 'Код строки' or lineCode_1 == '2':
+        print('aaaaaaaaaaa')
+        if worksheet.cell(j, 0).value !='     в том числе:':
+            result.appendChild(reportItem)
             i += 1 
+            continue
+        elif worksheet.cell(j+1, 12).value == lineCode and worksheet.cell(j+1, 0).value == '     ':
+            result.appendChild(reportItem)
+            i += 1 
+            continue
+        else:
+            j+=1
+            lineCode_1=worksheet.cell(j, 12).value
+        print(lineCode_1)
+    while str(int(lineCode_1))[-1] != '0' or lineCode_1 == lineCode:
+        strName=worksheet.cell(j, 0).value
+        if strName == '     ':
+            j += 1 
             continue
         reg = re.compile('[^a-zA-Z0-9А-Яа-я ]')  
         strName=reg.sub('', strName)
@@ -256,10 +266,10 @@ def getRazedl(start, name):
         reportSubItem=doc.createElement('reportSubItem')
         reportSubItem.appendChild(AddKinder('manually', 'false'))
         reportSubItem.appendChild(AddKinder('name', strName))
-        if int(lineCode)< 100:
-          reportSubItem.appendChild(AddKinder('lineCode', '0'+ str(int(lineCode))))
+        if int(lineCode_1)< 100:
+          reportSubItem.appendChild(AddKinder('lineCode', '0'+ str(int(lineCode_1))))
         else:
-          reportSubItem.appendChild(AddKinder('lineCode', str(int(lineCode))))
+          reportSubItem.appendChild(AddKinder('lineCode', str(int(lineCode_1))))
         analyticCode = str(ParseFloat(worksheet.cell(j, 13).value))
         if len(analyticCode) == 3:
             if analyticCode[-1] == 'Х':
@@ -279,10 +289,14 @@ def getRazedl(start, name):
                 ParseFloat(worksheet.cell(j, 30).value)))
         reportItem.appendChild(reportSubItem)
         j += 1
-        lineCode=worksheet.cell(j, 12).value
-        while lineCode == '' or lineCode == 'Код строки' or lineCode == '2':
-            j += 1 
-            lineCode=worksheet.cell(j, 12).value
+        lineCode_1=worksheet.cell(j, 12).value
+        while lineCode_1 == '' or lineCode_1 == 'Код строки' or lineCode_1 == '2':
+            print(worksheet.cell(j, 12).value)
+            if worksheet.cell(j-1, 12).value == worksheet.cell(j+1, 12).value and worksheet.cell(j+1, 0).value == '':
+                j+=2
+            else:
+                j+=1
+            lineCode_1=worksheet.cell(j, 12).value
     result.appendChild(reportItem)
     if i == 1000: break
    
